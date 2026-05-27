@@ -38,7 +38,7 @@ export default function Navbar() {
           {/* DESKTOP NAV */}
           <nav className="hidden md:flex items-center gap-8">
             <a
-              href="#"
+              href="#projects"
                 className="
                 transition
                 duration-300
@@ -68,6 +68,17 @@ export default function Navbar() {
                 hover:-translate-y-0.5"
             >
               About
+            </a>
+
+            <a
+              href="#contact"
+              className="
+                transition
+                duration-300
+                hover:text-pink-500
+                hover:-translate-y-0.5"
+            >
+              Contact
             </a>
 
             <ThemeToggle />

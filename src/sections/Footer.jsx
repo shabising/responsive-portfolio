@@ -2,7 +2,7 @@ import Container from "../components/Container";
 
 export default function Footer() {
   return (
-    <footer className="py-16">
+    <footer id="contact" className="py-16">
       <Container>
 
         <div
